@@ -1,40 +1,55 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Professional Experience")
+#cvSection("Expérience")
 
 #cvEntry(
-    title: [Director of Data Science],
-    society: [XYZ Corporation],
-    logo: "../src/logos/xyz_corp.png",
-    date: [2020 - Present],
-    location: [San Francisco, CA],
+    title: [Développeur Freelance],
+    society: [Kugge],
+    logo: "../src/logos/kugge.png",
+    date: [Août 2021 - Oct 2023],
+    location: [Valence & Grenoble],
     description: list(
-      [Lead a team of data scientists and analysts to develop and implement data-driven strategies, develop predictive models and algorithms to support decision-making across the organization],
-      [Collaborate with executive leadership to identify business opportunities and drive growth, implement best practices for data governance, quality, and security],
+      [Créer des solutions sur mesure pour répondre aux besoins commerciaux de clients de différents secteurs.],
+      [Analyser et optimiser les performances tout en réduisant les coûts pour augmenter les bénéfices des clients.],
     ),
-    tags: ("Tags Example here", "Dataiku", "Snowflake", "SparkSQL")
+    tags: ("Java", "C++", "SQL", "Rust", "Qt", "Spring", "Hibernate", "SQLite", "+")
 )
 
 #cvEntry(
-    title: [Data Analyst],
-    society: [ABC Company],
-    logo: "../src/logos/abc_company.png",
-    date: [2017 - 2020],
-    location: [New York, NY],
+    title: [SysAdmin],
+    society: [Kugge],
+    logo: "../src/logos/kugge.png",
+    date: [Août 2021 - Oct 2023],
+    location: [Valence & Grenoble],
     description: list(
-      [Analyze large datasets using SQL and Python, collaborate with cross-functional teams to identify business insights],
-      [Create data visualizations and dashboards using Tableau, develop and maintain data pipelines using AWS],
-    )
+      [Création de machines virtuelles avec Docker, KVM, et LXC pour divers systèmes Linux.],
+      [Support technique aux clients et utilisateurs de machines virtuelles, résolution de problèmes, demandes de support.],
+    ),
+    tags: ("Linux", "Bash", "Docker", "Python", "Rust")
 )
 
 #cvEntry(
-    title: [Data Analysis Intern],
-    society: [PQR Corporation],
-    logo: "../src/logos/pqr_corp.png",
-    date: [Summer 2017],
-    location: [Chicago, IL],
+    title: [Développeur C++ / Python (Stage)],
+    society: [CEA Leti],
+    logo: "../src/logos/cea.jpg",
+    date: [Dec 2022 - Juin 2023],
+    location: [Grenoble],
     description: list(
-      [Assisted with data cleaning, processing, and analysis using Python and Excel, participated in team meetings and contributed to project planning and execution],
-      [Developed data visualizations and reports to communicate insights to stakeholders, collaborated with other interns and team members to complete projects on time and with high quality],
-    )
+      [Création d'une API polyvalente pour interfacer la mémoire RAM et Flash d'un microcontrôleur, avec documentation complète et tests.],
+      [Développement d'une interface graphique pour détecter et visualiser en temps réel les attaques sur la mémoire.],
+    ),
+    tags: ("C++", "Python", "Qt", "QtCreator", "ATMega", "FTDI")
+)
+
+#cvEntry(
+    title: [Tuteur en Mathématiques],
+    society: [Université Grenoble Alpes],
+    logo: "../src/logos/uga.jpg",
+    date: [Sep 2021 - Juin 2022],
+    location: [Grenoble],
+    description: list(
+      [Encadrement hebdomadaire des étudiants de première année pour assurer la compréhension des concepts mathématiques abstraits.],
+      [Conception et création de graphiques interactifs permettant une visualisation plus claire et efficace des concepts étudiés.],
+    ),
+    tags: ("Python", "Mathématiques", "Manim")
 )

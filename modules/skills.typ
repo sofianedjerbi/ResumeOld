@@ -1,18 +1,20 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Skills")
+#cvSection("Compétences")
+
+#let lightbold(str) = text(weight: 501, str)
 
 #cvSkill(
-  type: [Languages],
-  info: [English #hBar() French #hBar() Chinese]
+  type: [Langages],
+  info: [#lightbold("Java"), #lightbold("C++"), #lightbold("Python"), SQL, Bash, Kotlin, Rust, C...]
 )
 
 #cvSkill(
-  type: [Tech Stack],
-  info: [Tableau #hBar() Python (Pandas/Numpy) #hBar() PostgreSQL]
+  type: [Outils],
+  info: [#lightbold("Linux"), #lightbold("Git"), #lightbold("MySQL"), QtCreator, Jenkins, MongoDB, Docker, Jira, Gradle, Maven...]
 )
 
 #cvSkill(
-  type: [Personal Interests],
-  info: [Swimming #hBar() Cooking #hBar() Reading]
+  type: [Librairies],
+  info: [#lightbold("Spring Boot"), Hibernate, #lightbold("Guava"), Gson #hBar() Numpy, #lightbold("Pandas"), #lightbold("FastAPI"), Flask, Django #hBar() #lightbold("SQLite"), #lightbold("Qt"), Boost, Eigen]
 )

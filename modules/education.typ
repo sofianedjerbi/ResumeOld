@@ -1,27 +1,39 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Education")
+#cvSection("Formation")
 
 #cvEntry(
-    title: [Master of Data Science],
-    society: [University of California, Los Angeles],
-    date: [2018 - 2020],
-    location: [USA],
-    logo: "../src/logos/ucla.png",
+    title: [Magistère de Mathématiques],
+    society: [Institut Fourier],
+    date: [2022 - 2023],
+    location: [Grenoble],
+    logo: "../src/logos/if.png",
     description: list(
-      [Thesis: Predicting Customer Churn in Telecommunications Industry using Machine Learning Algorithms and Network Analysis],
-      [Course: Big Data Systems and Technologies #hBar() Data Mining and Exploration #hBar() Natural Language Processing]
+      [Le magistère de mathématiques est une formation complémentaire et sélective axée sur la recherche en mathématiques],
+      [Elle approfondit les concepts mathématiques pour préparer les étudiants à un doctorat en maths.]
     )
 )
 
 #cvEntry(
-    title: [Bachelors of Science in Computer Science],
-    society: [University of California, Los Angeles],
-    date: [2018 - 2020],
-    location: [USA],
-    logo: "../src/logos/ucla.png",
+    title: [Magistère d'Informatique],
+    society: [Université Grenoble Alpes],
+    date: [2021 - 2022],
+    location: [Grenoble],
+    logo: "../src/logos/uga.png",
     description: list(
-      [Thesis: Exploring the Use of Machine Learning Algorithms for Predicting Stock Prices: A Comparative Study of Regression and Time-Series Models],
-      [Course: Database Systems #hBar() Computer Networks #hBar() Software Engineering #hBar() Artificial Intelligence]
+      [Le magistère d'informatique est une formation complémentaire et sélective pour explorer recherche et développement.],
+      [Cette formation explore publications scientifiques et technologies avancées, stimulant l'intérêt pour l'innovation technologique.]
+    )
+)
+
+#cvEntry(
+    title: [Licence Mathématiques-Informatique, mention "Bien"],
+    society: [Université Grenoble Alpes],
+    date: [2019 - 2022],
+    location: [Grenoble],
+    logo: "../src/logos/uga.png",
+    description: list(
+      [La licence en informatique-mathématiques offre une formation polyvalente en programmation et mathématiques.],
+      [Cette formation permet aux étudiants de maîtriser l'optimisation d'algorithmes et la conception de logiciels.]
     )
 )
