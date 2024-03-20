@@ -4,9 +4,29 @@
 
 #cvSection("Projets & Détails")
 
+
+#cvEntry(
+  title: [Ingénieur Java & Kotlin],
+  society: [Ingenico],
+  date: [Oct 23 - Maintenant],
+  location: [Valence],
+  description: par(justify: true)[
+    Prestation axée sur la création et la maintenance de librairies Java et Kotlin pour la gamme innovante de terminaux Axium, fonctionnant sous #lightbold[Android]. Objectif principal : assurer la compatibilité avec les gammes antérieures #lightbold[Tetra], en exploitant efficacement Kotlin KMM.
+
+    - #lightbold[Conception de bibliothèques multiplateformes :] Développement et maintenance de librairies Java et Kotlin, spécifiquement adaptées aux besoins des terminaux Axium, garantissant performance et fiabilité. Responsable de la maintenance continue (rôle de mainteneur).
+    - #lightbold[Kotlin Multiplatform :] Mise en oeuvre de Kotlin KMM, une technologie de pointe pour la programmation multiplateforme, assurant une intégration harmonieuse et efficiente.
+    - #lightbold[Prise de décisions architecturales :] Engagement dans des décisions architecturales stratégiques, visant à renforcer la modularité, la performance et la facilité de maintenance des librairies.
+    - #lightbold[Leadership technique en Java & Kotlin :] Référent en Java et Kotlin, offrant expertise technique et coaching à l'équipe pour accélérer le développement et augmenter la qualité du code.
+
+    Résultats notables :
+    - Élaboration d'un framework interne facilitant et accélérant le développement d'applications multiplateformes.
+    - Simplification de l'ecosysteme existant.
+  ],
+  tags: ("Java", "Kotlin", "Gradle", "Coroutines", "Multiplateforme", "KMM", "Linux")
+)
 #cvEntry(
   title: [Développeur Java],
-  society: [Kaiiju (2b2t & 6b6t)],
+  society: [Kaiiju],
   date: [Jan 23 - Oct 23],
   location: [Télétravail],
   description: par(justify: true)[
@@ -16,7 +36,7 @@
     - #lightbold[Création d'une API] publique, rapide et de haut niveau pour une manipulation aisée de ce nouveau format de stockage. Écrite en Rust, elle prend en charge le chargement et le traitement parallèle des fichiers.
     - #lightbold[Désynchronisation du pathfinding :] Mise en place d'un thread-pool asynchrone pour accélérer le processus de pathfinding sans impact sur le thread principal. Utilisation d'un cache pour améliorer la vitesse du pathfinding tout en réduisant la consommation de mémoire.
 
-    Résultats :
+    Résultats notables :
     - Réduction de l'utilisation de l'espace disque d'environ #lightbold[63%].
     - Augmentation des performances globales d'environ #lightbold[16%].
     - Écriture concurrente des fichiers: réduction arbitraire du temps d'écriture.
@@ -36,6 +56,7 @@
   ],
   tags: ("Linux", "Python", "Rust", "SQL", "Docker", "Proxmox", "Flask", "Django", "FastAPI", "Pandas")
 )
+#pagebreak()
 #cvEntry(
   title: [Développeur Java],
   society: [Elendil],
@@ -66,7 +87,6 @@
   ],
   tags: ("C++", "Python", "Qt", "QtCreator", "FTDI")
 )
-#pagebreak()
 #cvEntry(
   title: [Développeur C++],
   society: [via Fiverr],
@@ -81,4 +101,4 @@
 )
 
 #v(10pt)
-*Mes projets personnels sont disponibles sur mon GitHub: * #link("https://github.com/kugge")
+*Mes projets personnels sont disponibles sur mon GitHub: * #link("https://github.com/chaoxel")

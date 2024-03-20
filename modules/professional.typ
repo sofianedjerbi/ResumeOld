@@ -3,6 +3,19 @@
 #cvSection("Expérience")
 
 #cvEntry(
+    title: [Ingénieur Consultant],
+    society: [ABMI],
+    logo: "../src/logos/abmi.jpg",
+    date: [Oct 2023 - Maintenant],
+    location: [Valence],
+    description: list(
+      [Prestation chez Ingenico: création et maintenance des nouvelles librairies multiplateformes.],
+      [Référent en language Java, Kotlin et programmation sur Android.],
+    ),
+    tags: ("Java", "Kotlin", "Multiplateforme", "Linux", "C++")
+)
+
+#cvEntry(
     title: [Développeur Freelance],
     society: [Kugge],
     logo: "../src/logos/kugge.png",

@@ -499,8 +499,8 @@
     margin: (
       left: 1.4cm,
       right: 1.4cm,
-      top: .8cm,
-      bottom: .4cm,
+      top: 0.2cm,
+      bottom: 0.1cm,
     ),
   )
   doc
