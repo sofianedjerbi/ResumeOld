@@ -19,4 +19,5 @@
   #pagebreak()
   #v(30pt)
   #autoImport("projects")
+  #autoImport("references")
 #cvFooter() 
