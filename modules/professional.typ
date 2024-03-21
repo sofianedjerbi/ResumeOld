@@ -12,7 +12,7 @@
       [Prestation chez Ingenico: création et maintenance des nouvelles librairies multiplateformes.],
       [Référent en language Java, Kotlin et programmation sur Android.],
     ),
-    tags: ("Java", "Kotlin", "Multiplateforme", "Linux", "C++")
+    tags: ("Java", "Kotlin", "C++", "Linux", "Jira", "Bitbucket", "Architecture")
 )
 
 #cvEntry(
@@ -25,11 +25,11 @@
       [Créer des solutions sur mesure pour répondre aux besoins commerciaux de clients de différents secteurs.],
       [Analyser et optimiser les performances tout en réduisant les coûts pour augmenter les bénéfices des clients.],
     ),
-    tags: ("Java", "C++", "SQL", "Rust", "Qt", "Spring", "Hibernate", "SQLite", "+")
+    tags: ("Java", "C++", "SQL", "Rust", "Qt", "Spring", "Hibernate", "SQLite", "Architecture", "+")
 )
 
 #cvEntry(
-    title: [SysAdmin],
+    title: [Administrateur Système],
     society: [Kugge],
     logo: "../src/logos/kugge.png",
     date: [Août 2021 - Oct 2023],
@@ -45,7 +45,7 @@
     title: [Développeur C++ / Python (Stage)],
     society: [CEA Leti],
     logo: "../src/logos/cea.jpg",
-    date: [Dec 2022 - Juin 2023],
+    date: [Dec 2021 - Juin 2022],
     location: [Grenoble],
     description: list(
       [Création d'une API polyvalente pour interfacer la mémoire RAM et Flash d'un microcontrôleur, avec documentation complète et tests.],

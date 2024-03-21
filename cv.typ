@@ -3,13 +3,13 @@
 
 #cvHeader(hasPhoto: true, align: left)
   #autoImport("skills")
-  #v(10pt)
+  #v(3pt)
   #autoImport("professional")
-  #v(10pt)
+  #v(3pt)
   #autoImport("education")
   //#autoImport("certificates")
   //#autoImport("publications")
-  #v(10pt)
+  #v(3pt)
   #grid(
     columns: (40%, 60%),
     gutter: 2%,
@@ -17,5 +17,6 @@
     autoImport("strengths")
   )
   #pagebreak()
+  #v(30pt)
   #autoImport("projects")
 #cvFooter() 

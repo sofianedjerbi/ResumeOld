@@ -9,7 +9,7 @@
     location: [Grenoble],
     logo: "../src/logos/if.png",
     description: list(
-      [Le magistère de mathématiques est une formation complémentaire et sélective axée sur la recherche en mathématiques],
+      [Le magistère de mathématiques est une formation complémentaire et sélective axée sur la recherche en mathématiques.],
       [Elle approfondit les concepts mathématiques pour préparer les étudiants à un doctorat en maths.]
     )
 )
@@ -21,7 +21,7 @@
     location: [Grenoble],
     logo: "../src/logos/uga.png",
     description: list(
-      [Le magistère d'informatique est une formation complémentaire et sélective pour explorer recherche et développement.],
+      [Le magistère d'informatique est une formation complémentaire et sélective explorant la recherche et le développement.],
       [Cette formation explore publications scientifiques et technologies avancées, stimulant l'intérêt pour l'innovation technologique.]
     )
 )

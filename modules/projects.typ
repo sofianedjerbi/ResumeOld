@@ -4,9 +4,9 @@
 
 #cvSection("Projets & Détails")
 
-
+#v(10pt)
 #cvEntry(
-  title: [Ingénieur Java & Kotlin],
+  title: [Ingénieur R & D],
   society: [Ingenico],
   date: [Oct 23 - Maintenant],
   location: [Valence],
@@ -22,10 +22,11 @@
     - Élaboration d'un framework interne facilitant et accélérant le développement d'applications multiplateformes.
     - Simplification de l'ecosysteme existant.
   ],
-  tags: ("Java", "Kotlin", "Gradle", "Coroutines", "Multiplateforme", "KMM", "Linux")
+  tags: ("Java", "Kotlin", "C++", "Gradle", "Jira", "Bitbucket", "KMM", "Linux", "PlantUML")
 )
+#v(20pt)
 #cvEntry(
-  title: [Développeur Java],
+  title: [Architecte & Développeur Java / Rust],
   society: [Kaiiju],
   date: [Jan 23 - Oct 23],
   location: [Télétravail],
@@ -43,27 +44,14 @@
   ],
   tags: ("Java", "Guava", "Multithreading", "Gradle", "Git", "Rust")
 )
+#v(10pt)
 #cvEntry(
-  title: [SysAdmin / Développeur Linux],
-  society: [Kugge],
-  date: [Jui 21 - Oct 23],
-  location: [Grenoble & Valence],
-  description: par(justify: true)[
-    - #lightbold[Création de machines virtuelles] utilisant des technologies telles que Docker, KVM, et LXC. Élaboration de scripts d'installation pour les systèmes d'exploitation Linux, notamment Debian 11, 12, Gentoo, Arch, Ubuntu, et CentOS.
-    - #lightbold[Développement d'un logiciel de sauvegarde automatisée] visant à garantir des sauvegardes régulières et facilement restaurables. Cette solution permet de réduire considérablement l'utilisation de l'espace disque, pouvant aller jusqu'à une réduction de 90% sur certaines offres d'hébergement, ce qui permet d'offrir des tarifs plus compétitifs.
-    - #lightbold[Planification de l'évolutivité de l'infrastructure] pour anticiper la croissance future. Une évaluation régulière des besoins et des opportunités d'amélioration est effectuée dans ce cadre.
-    - Fourniture d'une #lightbold[assistance technique] aux clients et aux utilisateurs des machines virtuelles, y compris la résolution des problèmes et la gestion des demandes de support, qu'elles soient d'ordre commercial ou technique.
-  ],
-  tags: ("Linux", "Python", "Rust", "SQL", "Docker", "Proxmox", "Flask", "Django", "FastAPI", "Pandas")
-)
-#pagebreak()
-#cvEntry(
-  title: [Développeur Java],
+  title: [Architecte & Développeur Java / Kotlin],
   society: [Elendil],
   date: [Jui 23 - Oct 23],
   location: [Valence],
   description: par(justify: true)[
-    Cette mission consistait à établir une #lightbold[boutique multiplateforme] afin de diversifier les sources de revenus, tout en monitorant les ventes pour identifier les offres les plus rentables. 
+    Cette mission consiste à établir une #lightbold[boutique multiplateforme] afin de diversifier les sources de revenus, tout en monitorant les ventes pour identifier les offres les plus rentables. 
 
     - #lightbold[Conception intégrale d'une boutique], accessible via diverses plateformes telles que le web, Android et applications PC grâce à la JVM.
     - #lightbold[Implémentation d'une tarification en temps réel en fonction de la demande], exploitant une base de données SQL. Les accès à la base de données sont optimisés pour des performances maximales grâce à des méthodes asynchrones avec un cache de type JSON.
@@ -71,12 +59,43 @@
     - #lightbold[Mise en place d'une interface web] (serveur web autonome) permettant de suivre de près les profits générés par chaque offre, ainsi que les dépenses de chaque client. Des graphiques dynamiques et interactifs en javascript sont disponibles sur le site pour un suivi complet.
     - #lightbold[Développement d'un système d'enchères où les clients peuvent mettre en vente leurs propres objets.] L'administrateur bénéficie d'une interface spéciale pour modérer les offres, garantissant ainsi une expérience sécurisée et transparente pour les utilisateurs.
   ],
-  tags: ("Java", "SQL", "Hibernate", "Spring", "Gson", "Gradle", "JavaScript", "MySQL")
+  tags: ("Java", "Kotlin", "SQL", "Hibernate", "Spring", "Gson", "Gradle", "JavaScript", "MySQL")
 )
+#pagebreak()
+#v(30pt)
+#cvEntry(
+  title: [Architecte & Développeur C++ / BDD],
+  society: [via Fiverr],
+  date: [Jan 22 - Jui 22],
+  location: [Valence],
+  description: par(justify: true)[
+    Cette mission implique la conception d'un logiciel destiné à répertorier les différentes espèces d'un élevage, à prédire la probabilité de générer les gènes les plus lucratifs, et à compiler un inventaire des espèces et gènes disponibles afin de déterminer les combinaisons les plus rentables.
+    - #lightbold[Développer un logiciel doté d'une interface utilisateur graphique] permettant aux éleveurs d'ajouter les animaux présents dans l'élevage ainsi que les gènes disponibles.
+    - #lightbold[Automatiser le calcul des accouplements les plus profitables] en tenant compte de la probabilité d'apparition des gènes rares et de leur valeur sur le marché grâce à un processus de collecte de données sur internet (scrapping).
+  ],
+  tags: ("C++", "Qt", "QtCreator", "SQLite", "Boost", "Eigen", "Curl (CPR)")
+)
+#v(10pt)
+#cvEntry(
+  title: [Administrateur Système & Développeur Linux],
+  society: [Kugge],
+  date: [Jui 21 - Oct 23],
+  location: [Grenoble & Valence],
+  description: par(justify: true)[
+    Accompagner et conseiller différents fournisseurs d'hébergement de serveurs (VPS, Pterodactyl..) pour maximiser leurs bénéfices, entretenir les équipements, et proposer des solutions aux problèmes fréquents.
+
+    - #lightbold[Création de machines virtuelles] utilisant des technologies telles que Docker, KVM, et LXC. Élaboration de scripts d'installation pour les systèmes d'exploitation Linux, notamment Debian 11, 12, Gentoo, Arch, Ubuntu, et CentOS.
+    - #lightbold[Développement d'un logiciel de sauvegarde automatisée] visant à garantir des sauvegardes régulières et facilement restaurables. Cette solution permet de réduire considérablement l'utilisation de l'espace disque, pouvant aller jusqu'à une réduction de 90% sur certaines offres d'hébergement, ce qui permet d'offrir des tarifs plus compétitifs.
+    - #lightbold[Planification de l'évolutivité de l'infrastructure] pour anticiper la croissance future. Une évaluation régulière des besoins et des opportunités d'amélioration est effectuée dans ce cadre.
+    - Fourniture d'une #lightbold[assistance technique] aux clients et aux utilisateurs des machines virtuelles, y compris la résolution des problèmes et la gestion des demandes de support, qu'elles soient d'ordre commercial ou technique.
+  ],
+  tags: ("Linux", "Python", "Rust", "SQL", "Docker", "Proxmox", "Flask", "Django", "FastAPI", "Pandas", "Bash")
+)
+#v(10pt)
 #cvEntry(
   title: [Développeur C++ / Python],
   society: [CEA Leti],
-  date: [Dec 22 - Juin 23],
+  date: [Dec 21 - Juin 22],
   location: [Grenoble],
   description: par(justify: true)[
     Cette mission consiste à #lightbold[développer un logiciel] sur mesure permettant la surveillance en temps réel des effets des attaques par rayon X sur la mémoire RAM et Flash d'un microcontrôleur (ATMega128). Ce logiciel se compose d'une interface utilisateur graphique (GUI) permettant une visualisation intuitive de la mémoire, ainsi que d'une interface de programmation d'application (API) pour interagir avec la mémoire du microcontrôleur.
@@ -85,20 +104,10 @@
     - #lightbold[Création d'une interface graphique] en utilisant Qt et QtCreator pour afficher et manipuler en temps réel les composants mémoire, permettant de détecter les attaques par rayon X. Cette interface génère des représentations visuelles sous forme de heatmap.
     - Gestion complète du projet, y compris la rédaction d'un cahier des charges détaillé, la répartition des tâches au sein de l'équipe, et le suivi du projet en utilisant des outils de gestion de version tels que #lightbold[Git et GitHub]. Présentation du projet ainsi que des résultats obtenus.
   ],
-  tags: ("C++", "Python", "Qt", "QtCreator", "FTDI")
-)
-#cvEntry(
-  title: [Développeur C++],
-  society: [via Fiverr],
-  date: [Jan 22 - Jui 22],
-  location: [Valence],
-  description: par(justify: true)[
-    Cette mission impliquait la conception d'un logiciel destiné à répertorier les différentes espèces d'un élevage, à prédire la probabilité de générer les gènes les plus lucratifs, et à compiler un inventaire des espèces et gènes disponibles afin de déterminer les combinaisons les plus rentables.
-    - #lightbold[Développer un logiciel doté d'une interface utilisateur graphique] permettant aux éleveurs d'ajouter les animaux présents dans l'élevage ainsi que les gènes disponibles.
-    - #lightbold[Automatiser le calcul des accouplements les plus profitables] en tenant compte de la probabilité d'apparition des gènes rares et de leur valeur sur le marché grâce à un processus de collecte de données sur internet (scrapping).
-  ],
-  tags: ("C++", "Qt", "QtCreator", "SQLite", "Boost", "Eigen", "Curl (CPR)")
+  tags: ("C++", "Python", "Qt", "QtCreator", "FTDI", "ATMega")
 )
 
 #v(10pt)
-*Mes projets personnels sont disponibles sur mon GitHub: * #link("https://github.com/chaoxel")
+*Et de nombreux autres projets sont disponibles sur mon GitHub!* \
+Lien: #link("https://github.com/chaoxel")
+

@@ -6,12 +6,12 @@
 
 #cvSkill(
   type: [Langages],
-  info: [#lightbold("Java"), #lightbold("C++"), #lightbold("Python"), SQL, Bash, Kotlin, Rust, C...]
+  info: [#lightbold("Java"), #lightbold("C++"), #lightbold("Python"), #lightbold("Kotlin"), SQL, Bash, Rust, C et plus]
 )
 
 #cvSkill(
   type: [Outils],
-  info: [#lightbold("Linux"), #lightbold("Git"), #lightbold("MySQL"), QtCreator, Jenkins, MongoDB, Docker, Jira, Gradle, Maven...]
+  info: [#lightbold("Linux"), #lightbold("Git"), #lightbold("MySQL"), QtCreator, Jenkins, MongoDB, Docker, Jira, Gradle, Maven, Bitbucket et plus]
 )
 
 #cvSkill(
