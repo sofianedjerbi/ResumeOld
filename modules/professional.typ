@@ -1,6 +1,6 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Expérience")
+#cvSection("Expériences")
 
 #grid(
   columns: (50%, 50%),
@@ -15,7 +15,7 @@
           [Création et maintenance de librairies Java et Kotlin pour terminaux Android Axium. Assurer la compatibilité avec les gammes Tetra.],
           [Implémentation de Kotlin KMM pour programmation multiplateforme. Leadership technique en Java & Kotlin.]
         ),
-        tags: ("Java", "Kotlin", "C++", "Gradle", "Jira", "Bitbucket", "KMM", "Linux", "PlantUML")
+        tags: ("Java", "Kotlin", "C++", "Gradle", "Jira", "Bitbucket", "KMM", "Linux", "UML")
     )
 
     #cvEntry(
@@ -97,7 +97,7 @@
       title: [Développeur Java],
       society: [via Fiverr],
       date: [Mars 2020 - Août 2020],
-      location: [Votre localisation],
+      location: [Grenoble, France],
       description: list(
         [Création d'une solution pour répartir dynamiquement la charge de calcul d'une application Java en fonction du trafic.],
         [Optimisation des calculs pour chaque utilisateur et désynchronisation des processus pour améliorer l'efficacité et réduire les temps de réponse.]

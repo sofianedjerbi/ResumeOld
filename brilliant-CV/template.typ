@@ -20,6 +20,7 @@
   }
 }
 
+#let ulink(dest, body) = link(dest, text(blue, underline(body)))
 
 /* Utility Functions */
 #let hBar() = [
@@ -79,7 +80,7 @@
 
 #let headerFirstNameStyle(str) = {text(
   font: headerFont,
-  size: 32pt,
+  size: 20pt,
   weight: "light",
   fill: regularColors.darkgray,
   str
@@ -87,7 +88,7 @@
 
 #let headerLastNameStyle(str) = {text(
   font: headerFont,
-  size: 32pt,
+  size: 20pt,
   weight: "bold",
   str
 )}
@@ -262,19 +263,19 @@
         personalInfoIcons.at(k) + h(5pt)
         // Adds hyperlinks
         if k == "email" {
-          link("mailto:" + v)[#v]
+          ulink("mailto:" + v)[#v]
         } else if k == "linkedin" {
-          link("https://www.linkedin.com/in/" + v)[#v]
+          ulink("https://www.linkedin.com/in/" + v)[#v]
         } else if k == "github" {
-          link("https://github.com/" + v)[#v]
+          ulink("https://github.com/" + v)[#v]
         } else if k == "gitlab" {
-          link("https://gitlab.com/" + v)[#v]
+          ulink("https://gitlab.com/" + v)[#v]
         } else if k == "homepage" {
-          link("https://" + v)[#v]
+          ulink("https://" + v)[#v]
         } else if k == "orcid" {
-          link("https://orcid.org/" + v)[#v]
+          ulink("https://orcid.org/" + v)[#v]
         } else if k == "researchgate" {
-          link("https://www.researchgate.net/profile/" + v)[#v]
+          ulink("https://www.researchgate.net/profile/" + v)[#v]
         } else {
           v
         }
@@ -393,7 +394,7 @@
     skillTypeStyle(type),
     skillInfoStyle(info),
   )
-  v(-5pt)
+  v(-6pt)
 }
 
 #let cvHonor(

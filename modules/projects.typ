@@ -1,6 +1,7 @@
 #import "../brilliant-CV/template.typ": *
 
 #let lightbold(str) = text(weight: 501, str)
+#let ulink(dest, body) = link(dest, text(blue, underline(body)))
 
 #cvSection("Projets & Détails")
 
@@ -123,4 +124,4 @@
 )
 #v(5pt)
 *Et de nombreux autres projets sont disponibles sur mon GitHub!* \
-Lien: #link("https://github.com/chaoxel")
+Lien: #ulink("https://github.com/chaoxel")[https://github.com/chaoxel]
