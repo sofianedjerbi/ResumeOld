@@ -287,7 +287,7 @@
     columns: 1fr,
     inset: 0pt,
     stroke: none,
-    row-gutter: 6mm,
+    row-gutter: 5mm,
     [#headerFirstNameStyle(firstName) #h(5pt) #headerLastNameStyle(lastName)],
     [#headerInfoStyle(makeHeaderInfo())],
     [#headerQuoteStyle(languageSwitch(headerQuoteInternational))]
@@ -393,7 +393,7 @@
     skillTypeStyle(type),
     skillInfoStyle(info),
   )
-  //v(-6pt)
+  v(-5pt)
 }
 
 #let cvHonor(

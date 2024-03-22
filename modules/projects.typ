@@ -4,7 +4,7 @@
 
 #cvSection("Projets & Détails")
 
-#v(10pt)
+#v(8pt)
 #cvEntry(
   title: [Ingénieur R & D],
   society: [Ingenico],
@@ -24,7 +24,7 @@
   ],
   tags: ("Java", "Kotlin", "C++", "Gradle", "Jira", "Bitbucket", "KMM", "Linux", "PlantUML")
 )
-#v(20pt)
+#v(8pt)
 #cvEntry(
   title: [Architecte & Développeur Java / Rust],
   society: [Kaiiju],
@@ -44,7 +44,7 @@
   ],
   tags: ("Java", "Guava", "Multithreading", "Gradle", "Git", "Rust")
 )
-#v(10pt)
+#v(8pt)
 #cvEntry(
   title: [Architecte & Développeur Java / Kotlin],
   society: [Elendil],
@@ -62,7 +62,7 @@
   tags: ("Java", "Kotlin", "SQL", "Hibernate", "Spring", "Gson", "Gradle", "JavaScript", "MySQL")
 )
 #pagebreak()
-#v(30pt)
+#v(20pt)
 #cvEntry(
   title: [Architecte & Développeur C++ / BDD],
   society: [via Fiverr],
@@ -75,7 +75,7 @@
   ],
   tags: ("C++", "Qt", "QtCreator", "SQLite", "Boost", "Eigen", "Curl (CPR)")
 )
-#v(10pt)
+#v(8pt)
 #cvEntry(
   title: [Administrateur Système & Développeur Linux],
   society: [Kugge],
@@ -91,14 +91,14 @@
   ],
   tags: ("Linux", "Python", "Rust", "SQL", "Docker", "Proxmox", "Flask", "Django", "FastAPI", "Pandas", "Bash")
 )
-#v(10pt)
+#v(8pt)
 #cvEntry(
   title: [Développeur C++ / Python],
   society: [CEA Leti],
   date: [Dec 21 - Juin 22],
   location: [Grenoble, France],
   description: par(justify: true)[
-    Cette mission consiste à #lightbold[développer un logiciel] sur mesure permettant la surveillance en temps réel des effets des attaques par rayon X sur la mémoire RAM et Flash d'un microcontrôleur (ATMega128). Ce logiciel se compose d'une interface utilisateur graphique (GUI) permettant une visualisation intuitive de la mémoire, ainsi que d'une interface de programmation d'application (API) pour interagir avec la mémoire du microcontrôleur.
+    Cette mission consiste à #lightbold[développer un logiciel] pour surveiller en temps réel l'impact des attaques par rayon X sur la RAM et Flash de l'ATMega128, incluant une GUI et une API pour monitorer l'interaction avec la mémoire.
 
     - #lightbold[Développement d'une API haut niveau multiplateforme] dédiée à l'interaction avec les composants électroniques RAM et Flash, prenant en charge les protocoles RS232 et MPSSE USB FTDI. Cette API est accompagnée d'une documentation complète et de tests unitaires.
     - #lightbold[Création d'une interface graphique] en utilisant Qt et QtCreator pour afficher et manipuler en temps réel les composants mémoire, permettant de détecter les attaques par rayon X. Cette interface génère des représentations visuelles sous forme de heatmap.
@@ -106,8 +106,21 @@
   ],
   tags: ("C++", "Python", "Qt", "QtCreator", "FTDI", "ATMega")
 )
+#v(8pt)
+#cvEntry(
+  title: [Développeur Java],
+  society: [via Fiverr],
+  date: [Mars 20 - Août 20],
+  location: [Grenoble],
+  description: par(justify: true)[
+    Développement d'une solution innovante pour l'ajustement dynamique des performances en fonction de l'activité utilisateur et de la charge système. Ce système utilise un algorithme intelligent pour optimiser les ressources en temps réel, réduisant ainsi le temps de réponse et améliorant l'expérience utilisateur.
 
-#v(10pt)
+    - #lightbold[Adaptation intelligente :] Implémentation d'un algorithme capable d'ajuster les paramètres de rendu en fonction du ping des utilisateurs et de la santé globale du système. Introduction d'un indice de réduction ajusté en temps réel pour optimiser les ressources.
+    - #lightbold[Amélioration significative de la performance :] Grâce à la gestion adaptative des paramètres, la solution minimise les retards, réduit le temps de réponse et améliore la fluidité de l'expérience utilisateur.
+    - #lightbold[Configurabilité et contrôle :] Développement d'une interface de configuration complète permettant une personnalisation poussée et un contrôle fin sur le comportement du système selon divers scénarios d'utilisation.
+  ],
+  tags: ("Java", "Multithreading", "Bash", "Linux", "Maven")
+)
+#v(5pt)
 *Et de nombreux autres projets sont disponibles sur mon GitHub!* \
 Lien: #link("https://github.com/chaoxel")
-

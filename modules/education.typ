@@ -2,38 +2,67 @@
 
 #cvSection("Formation")
 
+#let lightbold(str) = text(weight: 501, str)
+
 #cvEntry(
     title: [Magistère de Mathématiques],
     society: [Institut Fourier],
     date: [2022 - 2023],
     location: [Grenoble],
-    logo: "../src/logos/if.png",
     description: list(
-      [Le magistère de mathématiques est une formation complémentaire et sélective axée sur la recherche en mathématiques.],
-      [Elle approfondit les concepts mathématiques pour préparer les étudiants à un doctorat en maths.]
+      [
+        #lightbold[Acquis pertinents:]
+        Topologie algébrique,
+        Analyse complexe,
+        Systèmes dynamiques,
+        Théorie des nombres,
+        Analyse fonctionnelle,
+        Théorie des groupes,
+        Modélisation mathématique et simulation numérique,
+        Introduction à la recherche en mathématiques
+      ]
     )
 )
 
 #cvEntry(
     title: [Magistère d'Informatique],
-    society: [Université Grenoble Alpes],
+    society: [IM²AG],
     date: [2021 - 2022],
     location: [Grenoble],
-    logo: "../src/logos/uga.png",
     description: list(
-      [Le magistère d'informatique est une formation complémentaire et sélective explorant la recherche et le développement.],
-      [Cette formation explore publications scientifiques et technologies avancées, stimulant l'intérêt pour l'innovation technologique.]
+      [
+        #lightbold[Acquis pertinents:]
+        Ingénierie et Architecture Logicielle,
+        Algorithmique et Structures de Données,
+        Systèmes d'Exploitation,
+        Réseaux et Sécurité Informatique,
+        Intelligence Artificielle et Machine Learning,
+        Introduction à la recherche en informatique
+      ]
     )
 )
 
 #cvEntry(
-    title: [Licence Mathématiques-Informatique, mention "Bien"],
+    title: [Licence Mathématiques-Informatique],
     society: [Université Grenoble Alpes],
     date: [2019 - 2022],
     location: [Grenoble],
-    logo: "../src/logos/uga.png",
     description: list(
-      [La licence en informatique-mathématiques offre une formation polyvalente en programmation et mathématiques.],
-      [Cette formation permet aux étudiants de maîtriser l'optimisation d'algorithmes et la conception de logiciels.]
+      [
+        #lightbold[Acquis pertinents:]
+        C++,
+        C,
+        Python,
+        SQL,
+        Algèbre Linéaire et Géométrie,
+        Analyse Réelle,
+        Bases de Données,
+        Optimisation Continue,
+        Optimisation Discrète,
+        Machine Learning,
+        Théorie des Graphes,
+        Modélisation Mathématique,
+        Complexité et Calculabilité
+      ]
     )
 )

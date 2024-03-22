@@ -2,6 +2,7 @@
 #show: layout
 
 #cvHeader(hasPhoto: true, align: left)
+  #v(-10pt)
   #autoImport("skills")
   #v(3pt)
   #autoImport("professional")
@@ -17,7 +18,7 @@
     autoImport("certificates")
   )
   #pagebreak()
-  #v(30pt)
+  #v(20pt)
   #autoImport("projects")
   #autoImport("references")
 #cvFooter() 

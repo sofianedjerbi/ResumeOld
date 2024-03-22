@@ -21,7 +21,7 @@
 /* Language-specific */
 // Add your own languages while the keys must match the varLanguage variable
 #let headerQuoteInternational = (
-  "": [Ingénieur et Architecte de Solutions Back-End Innovantes\ À la recherche d'opportunités professionnelles sur Genève.],
+  "": [Ingénieur et Architecte de Solutions Back-End Innovantes.\ À la recherche d'opportunités professionnelles sur Genève.],
   "en": [Experienced Data Analyst looking for a full time job starting from now],
   "fr": [Analyste de données expérimenté à la recherche d'un emploi à temps plein disponible dès maintenant],
   "zh": [具有丰富经验的数据分析师，随时可入职]
@@ -51,7 +51,7 @@
 /* Layout Setting */
 #let awesomeColor = "darknight" // Optional: skyblue, red, nephritis, concrete, darknight
 
-#let profilePhoto = "../src/me.png" // Leave blank if profil photo is not needed
+#let profilePhoto = "../src/mecool.png" // Leave blank if profil photo is not needed
 
 #let varLanguage = "" // INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
 
