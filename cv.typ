@@ -14,7 +14,7 @@
     columns: (40%, 60%),
     gutter: 2%,
     autoImport("languages"),
-    autoImport("strengths")
+    autoImport("certificates")
   )
   #pagebreak()
   #v(30pt)

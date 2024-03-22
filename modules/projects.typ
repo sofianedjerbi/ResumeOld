@@ -9,7 +9,7 @@
   title: [Ingénieur R & D],
   society: [Ingenico],
   date: [Oct 23 - Maintenant],
-  location: [Valence],
+  location: [Valence, France],
   description: par(justify: true)[
     Prestation axée sur la création et la maintenance de librairies Java et Kotlin pour la gamme innovante de terminaux Axium, fonctionnant sous #lightbold[Android]. Objectif principal : assurer la compatibilité avec les gammes antérieures #lightbold[Tetra], en exploitant efficacement Kotlin KMM.
 
@@ -29,7 +29,7 @@
   title: [Architecte & Développeur Java / Rust],
   society: [Kaiiju],
   date: [Jan 23 - Oct 23],
-  location: [Télétravail],
+  location: [Valence, France],
   description: par(justify: true)[
     L'objectif principal de cette mission était de permettre au client de #lightbold[réaliser des économies] en réduisant les coûts liés à l'hébergement, en mettant l'accent sur les ressources liées à la vitesse du processeur (CPU) et à l'espace de stockage.
 
@@ -49,7 +49,7 @@
   title: [Architecte & Développeur Java / Kotlin],
   society: [Elendil],
   date: [Jui 23 - Oct 23],
-  location: [Valence],
+  location: [Valence, France],
   description: par(justify: true)[
     Cette mission consiste à établir une #lightbold[boutique multiplateforme] afin de diversifier les sources de revenus, tout en monitorant les ventes pour identifier les offres les plus rentables. 
 
@@ -67,7 +67,7 @@
   title: [Architecte & Développeur C++ / BDD],
   society: [via Fiverr],
   date: [Jan 22 - Jui 22],
-  location: [Valence],
+  location: [Valence, France],
   description: par(justify: true)[
     Cette mission implique la conception d'un logiciel destiné à répertorier les différentes espèces d'un élevage, à prédire la probabilité de générer les gènes les plus lucratifs, et à compiler un inventaire des espèces et gènes disponibles afin de déterminer les combinaisons les plus rentables.
     - #lightbold[Développer un logiciel doté d'une interface utilisateur graphique] permettant aux éleveurs d'ajouter les animaux présents dans l'élevage ainsi que les gènes disponibles.
@@ -80,7 +80,7 @@
   title: [Administrateur Système & Développeur Linux],
   society: [Kugge],
   date: [Jui 21 - Oct 23],
-  location: [Grenoble & Valence],
+  location: [Grenoble, France],
   description: par(justify: true)[
     Accompagner et conseiller différents fournisseurs d'hébergement de serveurs (VPS, Pterodactyl..) pour maximiser leurs bénéfices, entretenir les équipements, et proposer des solutions aux problèmes fréquents.
 
@@ -96,7 +96,7 @@
   title: [Développeur C++ / Python],
   society: [CEA Leti],
   date: [Dec 21 - Juin 22],
-  location: [Grenoble],
+  location: [Grenoble, France],
   description: par(justify: true)[
     Cette mission consiste à #lightbold[développer un logiciel] sur mesure permettant la surveillance en temps réel des effets des attaques par rayon X sur la mémoire RAM et Flash d'un microcontrôleur (ATMega128). Ce logiciel se compose d'une interface utilisateur graphique (GUI) permettant une visualisation intuitive de la mémoire, ainsi que d'une interface de programmation d'application (API) pour interagir avec la mémoire du microcontrôleur.
 
