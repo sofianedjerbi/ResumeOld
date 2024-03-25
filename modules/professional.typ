@@ -7,7 +7,7 @@
   gutter: 2%,
   [
     #cvEntry(
-        title: [Ingénieur R & D],
+        title: [Ingénieur Recherche et Développement],
         society: [Ingenico],
         date: [Oct 23 - Maintenant],
         location: [Valence, France],
@@ -100,7 +100,7 @@
       location: [Grenoble, France],
       description: list(
         [Création d'une solution pour répartir dynamiquement la charge de calcul d'une application Java en fonction du trafic.],
-        [Optimisation des calculs pour chaque utilisateur et désynchronisation des processus pour améliorer l'efficacité et réduire les temps de réponse.]
+        [Optimisation et désynchronisation des calculs pour améliorer l'efficacité et réduire les délais.]
       ),
       tags: ("Java", "Bash", "Linux", "Cloud Computing", "Spring")
     )

@@ -7,12 +7,12 @@
 
 #v(8pt)
 #cvEntry(
-  title: [Ingénieur R & D],
+  title: [Ingénieur Recherche et Développement],
   society: [Ingenico],
   date: [Oct 23 - Maintenant],
   location: [Valence, France],
   description: par(justify: true)[
-    Prestation axée sur la création et la maintenance de librairies Java et Kotlin pour la gamme innovante de terminaux Axium, fonctionnant sous #lightbold[Android]. Objectif principal : assurer la compatibilité avec les gammes antérieures #lightbold[Tetra], en exploitant efficacement Kotlin KMM.
+    Prestation axée sur la création et la maintenance de librairies Java et Kotlin pour la gamme innovante de terminaux Axium, fonctionnant sous #lightbold[Android]. Objectif principal : assurer la compatibilité avec les gammes antérieures #lightbold[Tetra] et permettre la création de logiciels compatible terminaux concurrents, en exploitant efficacement Kotlin KMM.
 
     - #lightbold[Conception de bibliothèques multiplateformes :] Développement et maintenance de librairies Java et Kotlin, spécifiquement adaptées aux besoins des terminaux Axium, garantissant performance et fiabilité. Responsable de la maintenance continue (rôle de mainteneur).
     - #lightbold[Kotlin Multiplatform :] Mise en oeuvre de Kotlin KMM, une technologie de pointe pour la programmation multiplateforme, assurant une intégration harmonieuse et efficiente.
@@ -27,7 +27,7 @@
 )
 #v(8pt)
 #cvEntry(
-  title: [Architecte & Développeur Java / Rust],
+  title: [Architecte et Développeur Java & Rust],
   society: [Kaiiju],
   date: [Jan 23 - Oct 23],
   location: [Valence, France],
@@ -47,38 +47,41 @@
 )
 #v(8pt)
 #cvEntry(
-  title: [Architecte & Développeur Java / Kotlin],
+  title: [Architecte et Développeur Java & Kotlin],
   society: [Elendil],
   date: [Jui 23 - Oct 23],
   location: [Valence, France],
   description: par(justify: true)[
     Cette mission consiste à établir une #lightbold[boutique multiplateforme] afin de diversifier les sources de revenus, tout en monitorant les ventes pour identifier les offres les plus rentables. 
 
-    - #lightbold[Conception intégrale d'une boutique], accessible via diverses plateformes telles que le web, Android et applications PC grâce à la JVM.
+    - #lightbold[Conception intégrale d'une boutique], accessible via diverses plateformes telles que le web, Android et applications PC grâce à Spring et KMM.
     - #lightbold[Implémentation d'une tarification en temps réel en fonction de la demande], exploitant une base de données SQL. Les accès à la base de données sont optimisés pour des performances maximales grâce à des méthodes asynchrones avec un cache de type JSON.
-    - #lightbold[Création d'une boutique entièrement personnalisable], avec une documentation complète, incluant des fichiers de configuration de langage. Cette boutique offre la flexibilité d'ajouter ou de supprimer des offres sans nécessiter de compétences en programmation, grâce à un panneau de contrôle facile à utiliser.
-    - #lightbold[Mise en place d'une interface web] (serveur web autonome) permettant de suivre de près les profits générés par chaque offre, ainsi que les dépenses de chaque client. Des graphiques dynamiques et interactifs en javascript sont disponibles sur le site pour un suivi complet.
+    - #lightbold[Création d'un système de customisation], avec une documentation complète, incluant des fichiers de configuration de langage. Cette customisation offre la flexibilité d'ajouter ou de supprimer des offres sans nécessiter de compétences en programmation, grâce à un panneau de contrôle facile à utiliser.
+    - #lightbold[Mise en place d'une interface web] (serveur web Spring Boot) permettant de suivre de près les profits générés par chaque offre, ainsi que les dépenses de chaque client via une API REST. Des graphiques dynamiques et interactifs sont disponibles sur le site pour un suivi complet.
     - #lightbold[Développement d'un système d'enchères où les clients peuvent mettre en vente leurs propres objets.] L'administrateur bénéficie d'une interface spéciale pour modérer les offres, garantissant ainsi une expérience sécurisée et transparente pour les utilisateurs.
   ],
-  tags: ("Java", "Kotlin", "SQL", "Hibernate", "Spring", "Gson", "Gradle", "JavaScript", "MySQL")
+  tags: ("Java", "Kotlin", "SQL", "Hibernate", "Spring", "Gson", "Gradle", "JavaScript", "MySQL", "API REST")
 )
 #pagebreak()
 #v(20pt)
 #cvEntry(
-  title: [Architecte & Développeur C++ / BDD],
+  title: [Développeur Fullstack C++ & SQL],
   society: [via Fiverr],
   date: [Jan 22 - Jui 22],
   location: [Valence, France],
   description: par(justify: true)[
     Cette mission implique la conception d'un logiciel destiné à répertorier les différentes espèces d'un élevage, à prédire la probabilité de générer les gènes les plus lucratifs, et à compiler un inventaire des espèces et gènes disponibles afin de déterminer les combinaisons les plus rentables.
-    - #lightbold[Développer un logiciel doté d'une interface utilisateur graphique] permettant aux éleveurs d'ajouter les animaux présents dans l'élevage ainsi que les gènes disponibles.
-    - #lightbold[Automatiser le calcul des accouplements les plus profitables] en tenant compte de la probabilité d'apparition des gènes rares et de leur valeur sur le marché grâce à un processus de collecte de données sur internet (scrapping).
+    
+    - #lightbold[Calcul:] Emploi d'Eigen pour les calculs mathématiques et de Boost pour optimiser la rentabilité des accouplements, en analysant les données stockées.
+    - #lightbold[Recensement :] Mise en place d'une base de données pour cataloguer les espèces et gènes, permettant une gestion efficace des informations d'élevage.
+    - #lightbold[Interface utilisateur :] Utilisation de C++ pour développer une interface utilisateur via Qt et QtCreator, facilitant l'entrée des données d'élevage par les utilisateurs.
+    - #lightbold[Scrapping :] Utilisation de Curl pour le scrapping de données sur Internet, crucial pour ajuster les stratégies d'élevage aux tendances du marché.
   ],
-  tags: ("C++", "Qt", "QtCreator", "SQLite", "Boost", "Eigen", "Curl (CPR)")
+  tags: ("C++", "SQLite", "Boost", "Eigen", "Qt", "QtCreator", "Curl")
 )
 #v(8pt)
 #cvEntry(
-  title: [Administrateur Système & Développeur Linux],
+  title: [Développeur Linux & Administrateur Système],
   society: [Kugge],
   date: [Jui 21 - Oct 23],
   location: [Grenoble, France],
@@ -94,7 +97,7 @@
 )
 #v(8pt)
 #cvEntry(
-  title: [Développeur C++ / Python],
+  title: [Développeur Fullstack C++ & Python],
   society: [CEA Leti],
   date: [Dec 21 - Juin 22],
   location: [Grenoble, France],
@@ -109,14 +112,14 @@
 )
 #v(8pt)
 #cvEntry(
-  title: [Développeur Java],
+  title: [Développeur Backend Java],
   society: [via Fiverr],
   date: [Mars 20 - Août 20],
   location: [Grenoble],
   description: par(justify: true)[
     Développement d'une solution innovante pour l'ajustement dynamique des performances en fonction de l'activité utilisateur et de la charge système. Ce système utilise un algorithme intelligent pour optimiser les ressources en temps réel, réduisant ainsi le temps de réponse et améliorant l'expérience utilisateur.
 
-    - #lightbold[Adaptation intelligente :] Implémentation d'un algorithme capable d'ajuster les paramètres de rendu en fonction du ping des utilisateurs et de la santé globale du système. Introduction d'un indice de réduction ajusté en temps réel pour optimiser les ressources.
+    - #lightbold[Adaptation intelligente :] Implémentation d'un système Java capable d'ajuster les paramètres de rendu en fonction du ping des utilisateurs et de la santé globale du système. Introduction d'un indice de réduction ajusté en temps réel pour optimiser les ressources.
     - #lightbold[Amélioration significative de la performance :] Grâce à la gestion adaptative des paramètres, la solution minimise les retards, réduit le temps de réponse et améliore la fluidité de l'expérience utilisateur.
     - #lightbold[Configurabilité et contrôle :] Développement d'une interface de configuration complète permettant une personnalisation poussée et un contrôle fin sur le comportement du système selon divers scénarios d'utilisation.
   ],
