@@ -5,7 +5,7 @@
 
 #cvSection("Projets & Détails")
 
-#v(8pt)
+#v(5pt)
 #cvEntry(
   title: [Ingénieur Recherche et Développement],
   society: [Ingenico],
@@ -25,7 +25,7 @@
   ],
   tags: ("Java", "Kotlin", "C++", "Gradle", "Jira", "Bitbucket", "KMM", "Linux", "PlantUML")
 )
-#v(8pt)
+#v(5pt)
 #cvEntry(
   title: [Architecte et Développeur Java & Rust],
   society: [Kaiiju],
@@ -45,7 +45,7 @@
   ],
   tags: ("Java", "Guava", "Multithreading", "Gradle", "Git", "Rust")
 )
-#v(8pt)
+#v(5pt)
 #cvEntry(
   title: [Architecte et Développeur Java & Kotlin],
   society: [Elendil],
@@ -72,14 +72,14 @@
   description: par(justify: true)[
     Cette mission implique la conception d'un logiciel destiné à répertorier les différentes espèces d'un élevage, à prédire la probabilité de générer les gènes les plus lucratifs, et à compiler un inventaire des espèces et gènes disponibles afin de déterminer les combinaisons les plus rentables.
     
-    - #lightbold[Calcul:] Emploi d'Eigen pour les calculs mathématiques et de Boost pour optimiser la rentabilité des accouplements, en analysant les données stockées.
-    - #lightbold[Recensement :] Mise en place d'une base de données pour cataloguer les espèces et gènes, permettant une gestion efficace des informations d'élevage.
-    - #lightbold[Interface utilisateur :] Utilisation de C++ pour développer une interface utilisateur via Qt et QtCreator, facilitant l'entrée des données d'élevage par les utilisateurs.
-    - #lightbold[Scrapping :] Utilisation de Curl pour le scrapping de données sur Internet, crucial pour ajuster les stratégies d'élevage aux tendances du marché.
+    - #lightbold[Emploi d'Eigen] pour les calculs mathématiques et de Boost pour optimiser la rentabilité des accouplements, en analysant les données stockées.
+    - #lightbold[Mise en place d'une base de données SQL] pour cataloguer les espèces et gènes, permettant une gestion efficace des informations d'élevage.
+    - #lightbold[Utilisation de C++ et Qt] pour développer une interface utilisateur, facilitant l'entrée des données d'élevage par les utilisateurs.
+    - #lightbold[Utilisation de Curl] pour le scrapping de données sur Internet, crucial pour ajuster les stratégies d'élevage aux tendances du marché.
   ],
   tags: ("C++", "SQLite", "Boost", "Eigen", "Qt", "QtCreator", "Curl")
 )
-#v(8pt)
+#v(5pt)
 #cvEntry(
   title: [Développeur Linux & Administrateur Système],
   society: [Kugge],
@@ -95,7 +95,7 @@
   ],
   tags: ("Linux", "Python", "Rust", "SQL", "Docker", "Proxmox", "Flask", "Django", "FastAPI", "Pandas", "Bash")
 )
-#v(8pt)
+#v(5pt)
 #cvEntry(
   title: [Développeur Fullstack C++ & Python],
   society: [CEA Leti],
@@ -110,7 +110,7 @@
   ],
   tags: ("C++", "Python", "Qt", "QtCreator", "FTDI", "ATMega")
 )
-#v(8pt)
+#v(5pt)
 #cvEntry(
   title: [Développeur Backend Java],
   society: [via Fiverr],

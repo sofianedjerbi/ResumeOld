@@ -10,11 +10,12 @@
   columns: (50%, 50%),
   gutter: 2%,
   [
-    - #lightbold("Andrea BURTIN"): Manager ABMI
     - #lightbold("Marion GRAPPE"): Manager Ingenico
-    - #lightbold("Jean-Adrien DUCASTAING"): Client final boutique 
+    - #lightbold("Andrea BURTIN"): Suivi Mission Ingenico
+    - #lightbold("Sarah BARTHELEMY"): Suivi Mission Ingenico
   ],
   [
+    - #lightbold("Jean-Adrien DUCASTAING"): Client final boutique 
     - #lightbold("Jean MARCILLAC"): Client final Elendil & Kaiiju
     - #lightbold("Stephanie ANCEAU"): Responsable CEA
   ]
