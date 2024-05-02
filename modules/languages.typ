@@ -5,4 +5,4 @@
 #let lightbold(str) = text(weight: 501, str)
 
 - #lightbold("Français:") Langue maternelle
-- #lightbold("Anglais:") Niveau B2 (oral & écrit)
+- #lightbold("Anglais:") Niveau C1 (oral & écrit)

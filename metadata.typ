@@ -6,7 +6,7 @@
 #let lastName = "H. DJERBI"
 
 #let personalInfo = (
-  phone: "+336 95 80 02 69",
+  phone: "+33 695 800 269",
   location: "Mobile",
   email: "sofiane.djerbi38@gmail.com",
   //linkedin: "kugge",
@@ -51,7 +51,7 @@
 /* Layout Setting */
 #let awesomeColor = "darknight" // Optional: skyblue, red, nephritis, concrete, darknight
 
-#let profilePhoto = "../src/mecool.png" // Leave blank if profil photo is not needed
+#let profilePhoto = "../src/avatar.png" // Leave blank if profil photo is not needed
 
 #let varLanguage = "" // INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
 
